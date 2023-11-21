@@ -1,0 +1,13 @@
+{
+  "name": "video-360-threejs-stereoscopic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

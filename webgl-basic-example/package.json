@@ -1,0 +1,13 @@
+{
+  "name": "webgl-basic-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/index.js",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

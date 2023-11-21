@@ -1,0 +1,25 @@
+{
+  "name": "videotech-2023",
+  "version": "1.0.0",
+  "description": "videotech-2023 spherical video examples",
+  "scripts": {
+    "prepare": "symlink-dir ./source/ ./video-360-threejs/www/video && symlink-dir ./source ./video-360-webgl/www/video && symlink-dir ./source ./video-360-threejs-stereoscopic/www/video"
+  },
+  "keywords": ["videotech", "video360", "spherical", "immersive"],
+  "author": "@verzilka",
+  "license": "ISC",
+  "workspaces": [
+    "./video-360-threejs/*",
+    "./video-360-threejs-stereoscopic/*",
+    "./video-360-webgl/*",
+    "./webgl-basic-example/*"
+  ],
+  "dependencies": {
+    "symlink-dir": "^5.2.0",
+    "three": "^0.158.0"
+  },
+  "devDependencies": {
+    "@esbuilder/html": "^0.0.6",
+    "esbuild": "^0.19.5"
+  }
+}
